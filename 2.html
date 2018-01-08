@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>login page</title>
+
+<link rel="stylesheet" type="text/css" href="sytle.css">
+</head>
+
+<body>
+
+
+<ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About</a>
+  <ul>
+   <li><a href="">Our Team</a></li>
+   <li><a href="">Camp Sites</a></li>
+   <li><a href="">Mission &amp; Vision</a></li>
+   <li><a href="">Resources</a></li>
+  </ul>
+ </li>
+ <li><a href="#">Things to do</a>
+  <ul>
+   <li><a href="">Activities</a></li>
+   <li><a href="">Parks</a></li>
+   <li><a href="">Shops</a></li>
+   <li><a href="">Events</a></li>
+  </ul>
+ </li>
+ <li><a href="#">Contact</a>
+  <ul>
+   <li><a href="">Map</a></li>
+   <li><a href="">Directions</a></li>
+  </ul>
+ </li>
+ <li><a href="#">News</a></li>
+</ul>
+
+
+<div class="login-page">
+<div class="form">
+<form class="register-form">
+<input type="text" placeholder="username"/>
+<input type="text" placeholder="password"/>
+<input type="text" placeholder="email id"/>
+<button>create</button>
+
+<p class="message">Already registered?<a href="#">   Login   </a></p>
+
+
+
+
+
+</form>
+<form class="login-form">
+<input type="text" placeholder="username"/>
+<input type="password" placeholder="password"/>
+<button>Login</button>
+
+<p class="message">Not Registered?<a href="#">   Register   </a></p>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js">
+</script>
+<script>
+
+$(".message a").click(function(){
+    $("form").toggle({height:"toggle",opacity:"toggle"},"slow");
+});
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+</head>
+
+
+
+
+
+
+</html>
